@@ -11,7 +11,7 @@ body {
 .login-box {
   position: absolute;
   top: 50%;
-  left: 50%;
+  right: 0;
   width: 400px;
   padding: 40px;
   transform: translate(-50%, -50%);
@@ -174,4 +174,40 @@ body {
   50%,100% {
     bottom: 100%;
   }
+}
+
+.card-header h1{
+  color: #fff;
+}
+
+.table th{
+  border: 1px solid #fff;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.table td p{
+  border: 1px solid #fff;
+  padding: 15px;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+}
+
+.table td .btn{
+  border: 1px solid #fff;
+}
+
+.table td button{
+  padding: 12px 20px;
+  background: red;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  margin: 4px 5px;
+}
+
+.table td .edit{
+  background: #5959f1;
 }
